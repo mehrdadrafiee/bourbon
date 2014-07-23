@@ -1,17 +1,55 @@
 {
   "name": "bourbon",
-  "homepage": "http://bourbon.io/",
+  "description": "A simple and lightweight mixin library for Sass.",
   "version": "4.0.2",
   "main": "dist/_bourbon.scss",
+  "license": "MIT",
   "ignore": [
+    "**/.*",
     "app",
     "bin",
+    "bourbon.gemspec",
+    "CONTRIBUTING.md",
     "features",
+    "LICENSE.md",
     "lib",
-    ".gitignore",
     "Gemfile",
     "Gemfile.lock",
-    "Rakefile",
-    "bourbon.gemspec"
-  ]
+    "package.json",
+    "Rakefile"
+  ],
+  "keywords": [
+    "css",
+    "mixins",
+    "sass",
+    "scss"
+  ],
+  "authors": [
+    "Andrew Cohen",
+    "Brenda Storer",
+    "Carolann Bonner",
+    "Christian Reuter",
+    "Connie Chan",
+    "Corwin Harrell",
+    "Don Okuda",
+    "Gabe Berke-Williams",
+    "Jason Ramirez",
+    "Joshua Ogle",
+    "Kyle Fiedler",
+    "Lisa Sy",
+    "Lydia Damon",
+    "Magnus Gyllensward",
+    "Matt Jankowski",
+    "Mike Burns",
+    "Phil LaPier",
+    "Reda Lemeden",
+    "Steven Harley",
+    "Tyson Gach",
+    "Will McMahan"
+  ],
+  "homepage": "http://bourbon.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thoughtbot/bourbon"
+  }
 }
